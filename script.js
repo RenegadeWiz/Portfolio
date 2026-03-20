@@ -19,8 +19,9 @@ buttons.forEach(btn => {
 
 // NAVBAR TOGGLE
 const burger = document.querySelector('.burger');
-const nav = document.querySelector('.nav-links');
+const navLinks = document.querySelector('.nav-links');
 
 burger.addEventListener('click', () => {
-    nav.classList.toggle('active');
+    navLinks.classList.toggle('nav-active'); 
+    burger.classList.toggle('toggle'); 
 });
