@@ -88,6 +88,25 @@ a {
     transition: 0.3s;
 }
 
+.nav-links {
+    display: flex;
+    list-style: none;
+    transition: transform 0.3s ease;
+}
+
+.nav-links.nav-active {
+    transform: translateX(0); /* slide in */
+}
+
+.burger.toggle div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.burger.toggle div:nth-child(2) {
+    opacity: 0;
+}
+.burger.toggle div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
 
 /* Hero Section */
 .hero {
