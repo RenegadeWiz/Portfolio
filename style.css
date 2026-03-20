@@ -149,6 +149,12 @@ a {
     color: #fff;
     opacity: 0.9;
 }
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    justify-content: center; 
+}
 .cta-buttons .btn {padding:12px 30px; margin:0 10px; border-radius:50px; font-weight:bold; transition:0.3s;}
 .cta-buttons .btn {background:#fff; color:#ff6f61;}
 .cta-buttons .btn-secondary {background:transparent; border:2px solid #fff; color:#fff;}
